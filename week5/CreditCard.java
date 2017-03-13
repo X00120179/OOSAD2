@@ -12,4 +12,9 @@ public class CreditCard {
 		cardName = nameIn;
 	}
 
+	public CreditCard() {
+		// TODO - implement CreditCard.CreditCard
+		throw new UnsupportedOperationException();
+	}
+
 }

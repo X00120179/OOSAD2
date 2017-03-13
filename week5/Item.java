@@ -17,4 +17,9 @@ public class Item {
 		return name;
 	}
 
+	public Item() {
+		// TODO - implement Item.Item
+		throw new UnsupportedOperationException();
+	}
+
 }

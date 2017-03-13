@@ -1,6 +1,7 @@
 public class Cart {
 
 	private int cartID;
+	private int numOfItems;
 
 	public void showItemsInCart() {
 		System.out.println("Item name" + item.getName());
@@ -12,6 +13,11 @@ public class Cart {
 
 	public Cart(int idIn) {
 		cartID = idIn;
+	}
+
+	public Cart() {
+		// TODO - implement Cart.Cart
+		throw new UnsupportedOperationException();
 	}
 
 }

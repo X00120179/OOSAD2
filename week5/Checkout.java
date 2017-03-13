@@ -8,4 +8,9 @@ public class Checkout {
 		total = totalIn;
 	}
 
+	public Checkout() {
+		// TODO - implement Checkout.Checkout
+		throw new UnsupportedOperationException();
+	}
+
 }
